@@ -50,7 +50,8 @@ class smbh_imbh_mergers(object):
     Compute cosmological merger rates for supermassive black holes - intermediate-mass black holes binaries
 
     Usage:
-        smbhimbh_mergers(nsample)
+        p=sim.smbh_imbh_mergers()
+        p(nsample)
 
     Parameters:
         nsample # number of galaxies to sample
