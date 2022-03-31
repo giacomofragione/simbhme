@@ -25,41 +25,41 @@ The default usage is
 
 #### Parameters
 
-nsample # number of galaxies to sample
-directory # directory
-mnsc_min # minimum NSC mass
-mnsc_max # maximum NSC mass
-mgc_min # minimum GC mass
-mgc_max # maximum GC mass
-slope_gc # slope GC distribution
-z_gc # mean redshift GC formation
-sigma_gc # sigma redshift GC formation
-mgal_min # minimum galaxy mass
-mgal_max # maximum galaxy mass late
-mstar  # parameter press-schechter function
-astar  # parameter press-schechter function
-galaxy_type # galaxy type
-fimbh # IMBH mass over cluster mass
-fgcimbh # fraction of clusters with IMBH
-tdelay # delay time in Gyr
-scale # =1 determine minimum GC mass with scaling from Fahrion+ 2021
+- `nsample` number of galaxies to sample
+- `directory` directory
+- `mnsc_min` minimum NSC mass
+- `mnsc_max` maximum NSC mass
+- `mgc_min` minimum GC mass
+- `mgc_max` maximum GC mass
+- `slope_gc` slope GC distribution
+- `z_gc` mean redshift GC formation
+- `sigma_gc` sigma redshift GC formation
+- `mgal_min` minimum galaxy mass
+- `mgal_max` maximum galaxy mass late
+- `mstar`  parameter press-schechter function
+- `astar`  parameter press-schechter function
+- `galaxy_type` galaxy type
+- `fimbh` IMBH mass over cluster mass
+- `fgcimbh` fraction of clusters with IMBH
+- `tdelay` delay time in Gyr
+- `scale` =1 determine minimum GC mass with scaling from Fahrion+ 2021
 
 #### Returns
 
 A file `datall.txt` wiith columns
 
-akk # number of galaxy
-amgal # galaxy mass
-amnsc # NSC mass
-arnsc # half-mass radius NSC
-amsmbh # SMBH mass
-arhsmbh # influence radius SMBH
-afout # NSC mass from accreted GCs
-amgc # GC mass
-azform # formation redshit GC
-atform # formation time GC
-amimbh # IMBH mass
-attot # total time for SMBH-IMBH merger
-aii # cluster index
-akkk # number of runs to meet criteria of GC mass generation
+- `akk` number of galaxy
+- `amgal` galaxy mass
+- `amnsc` NSC mass
+- `arnsc` half-mass radius NSC
+- `amsmbh` SMBH mass
+- `arhsmbh` influence radius SMBH
+- `afout` NSC mass from accreted GCs
+- `amgc` GC mass
+- `azform` formation redshit GC
+- `atform` formation time GC
+- `amimbh` IMBH mass
+- `attot` total time for SMBH-IMBH merger
+- `aii` cluster index
+- `akkk` number of runs to meet criteria of GC mass generation
 
