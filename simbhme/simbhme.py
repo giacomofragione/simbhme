@@ -73,8 +73,20 @@ class smbh_imbh_mergers(object):
         scale # =1 determine minimum GC mass with scaling from Fahrion+ 2021
 
     Returns:
-        rate # rate of SMBH-IMBH megers Gpc^-3 yr^-1
-        redshift # redshift corresponding to the rate
+        akk # number of galaxy
+        amgal # galaxy mass
+        amnsc # NSC mass
+        arnsc # half-mass radius NSC
+        amsmbh # SMBH mass
+        arhsmbh # influence radius SMBH
+        afout # NSC mass from accreted GCs
+        amgc # GC mass
+        azform # formation redshit GC
+        atform # formation time GC
+        amimbh # IMBH mass
+        attot # total time for SMBH-IMBH merger
+        aii # cluster index
+        akkk # number of runs to meet criteria of GC mass generation
     '''
 
 
