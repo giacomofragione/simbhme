@@ -46,7 +46,7 @@ The default usage is
 
 #### Returns
 
-A file `datall.txt` wiith columns
+A file `datall.txt` with columns
 
 - `akk` number of galaxy
 - `amgal` galaxy mass
