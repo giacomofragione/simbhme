@@ -8,7 +8,7 @@
 If you use this software in a scientific publication, I kindly ask you to cite: https://ui.adsabs.harvard.edu/abs/2022arXiv220205618F/abstract
 
 This code is developed and maintained by [Giacomo Fragione](https://giacomofragione90.wixsite.com/giacomofragione).
-To report bugs, please open an issue on GitHub. If you want to contact me, send an email to `giacomo.fragione90@gmail.com`.
+To report bugs, please open an issue on GitHub. If you want to contact me, send an email to `giacomo.fragione90@gmail.com` or `giacomo.fragione@northwestern.edu`.
 
 ### Results
 
